@@ -1,1 +1,60 @@
-css fæll virkaðu þetta?
+ * {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+}
+
+.navbar, .header, .footer {
+    color: #fff;
+    background-color: #1f2937;
+}
+
+.navbar .menu ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 20px 100px;
+}
+
+.header h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header button {
+    padding: 5px 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+
